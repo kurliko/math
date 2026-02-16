@@ -137,7 +137,8 @@ export function Contact() {
             ) : (
               <form
                 onSubmit={handleSubmit}
-                // When ready for PHP, add: action="contact.php" method="POST"
+                action="https://formspree.io/f/xlgwnbza"
+                method="POST"
                 className="flex flex-col gap-5"
               >
                 <div className="grid gap-5 sm:grid-cols-2">
