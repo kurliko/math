@@ -1,0 +1,96 @@
+import { BookOpen, Brain, Calculator, ChartLine, Lightbulb, PenTool } from "lucide-react"
+
+const services = [
+  {
+    icon: Calculator,
+    title: "Matura Podstawowa",
+    description:
+      "Kompleksowe przygotowanie do matury podstawowej. Praca nad zadaniami zamknietymi i otwartymi, omowienie pelnego zakresu materialu.",
+    topics: ["Funkcje", "Rownania i nierownosci", "Geometria", "Statystyka", "Ciagi"],
+  },
+  {
+    icon: Brain,
+    title: "Matura Rozszerzona",
+    description:
+      "Zaawansowane przygotowanie do matury rozszerzonej. Dowody, zadania optymalizacyjne, rachunek rozniczkowy.",
+    topics: ["Rachunek rozniczkowy", "Kombinatoryka", "Dowody", "Optymalizacja", "Liczby zespolone"],
+  },
+  {
+    icon: ChartLine,
+    title: "Nadrabianie Zaleglosci",
+    description:
+      "Pomoc w nadrabianiu materialu z biezacego roku szkolnego. Przygotowanie do sprawdzianow i kartkowych.",
+    topics: ["Biezacy material", "Sprawdziany", "Kartkowki", "Poprawa ocen"],
+  },
+  {
+    icon: Lightbulb,
+    title: "Zadania Problemowe",
+    description:
+      "Trening z zadan problemowych i olimpijskich. Rozwoj logicznego myslenia i kreatywnego podejscia.",
+    topics: ["Zadania konkursowe", "Olimpiady", "Logika", "Dowodzenie twierdzen"],
+  },
+  {
+    icon: PenTool,
+    title: "Arkusze Maturalne",
+    description:
+      "Rozwiazywanie arkuszy maturalnych z poprzednich lat. Nauka strategii pisania egzaminu pod presja czasu.",
+    topics: ["Arkusze CKE", "Strategia egzaminacyjna", "Zarządzanie czasem"],
+  },
+  {
+    icon: BookOpen,
+    title: "Konsultacje Jednorazowe",
+    description:
+      "Potrzebujesz pomocy z konkretnym tematem? Jedna lekcja moze wystarczyc, zeby rozwiazac Twoj problem.",
+    topics: ["Dowolny temat", "Szybka pomoc", "Bez zobowiazan"],
+  },
+]
+
+export function Services() {
+  return (
+    <section id="oferta" className="bg-card py-24">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-16 text-center">
+          <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">
+            Oferta
+          </p>
+          <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
+            Czego moge Cie nauczyc?
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+            Oferuje szeroki zakres wsparcia - od podstaw po zaawansowana
+            matematyke. Wybierz to, czego potrzebujesz.
+          </p>
+        </div>
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service) => (
+            <div
+              key={service.title}
+              className="group flex flex-col rounded-xl border border-border bg-background p-6 transition-all hover:border-primary/30 hover:shadow-md"
+            >
+              <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                <service.icon className="h-6 w-6" />
+              </div>
+              <h3 className="mb-2 font-display text-lg font-semibold text-foreground">
+                {service.title}
+              </h3>
+              <p className="mb-4 flex-1 text-sm leading-relaxed text-muted-foreground">
+                {service.description}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {service.topics.map((topic) => (
+                  <span
+                    key={topic}
+                    className="rounded-md bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground"
+                  >
+                    {topic}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
