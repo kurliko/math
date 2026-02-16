@@ -5,43 +5,43 @@ const services = [
     icon: Calculator,
     title: "Matura Podstawowa",
     description:
-      "Kompleksowe przygotowanie do matury podstawowej. Praca nad zadaniami zamknietymi i otwartymi, omowienie pelnego zakresu materialu.",
-    topics: ["Funkcje", "Rownania i nierownosci", "Geometria", "Statystyka", "Ciagi"],
+      "Kompleksowe przygotowanie do matury podstawowej. Praca nad zadaniami zamkniętymi i otwartymi, omówienie pełnego zakresu materiału.",
+    topics: ["Funkcje", "Równania i nierówności", "Geometria", "Statystyka", "Ciągi"],
   },
   {
     icon: Brain,
     title: "Matura Rozszerzona",
     description:
-      "Zaawansowane przygotowanie do matury rozszerzonej. Dowody, zadania optymalizacyjne, rachunek rozniczkowy.",
+      "Zaawansowane przygotowanie do matury rozszerzonej. Dowody, zadania optymalizacyjne, rachunek różniczkowy.",
     topics: ["Rachunek rozniczkowy", "Kombinatoryka", "Dowody", "Optymalizacja", "Liczby zespolone"],
   },
   {
     icon: ChartLine,
-    title: "Nadrabianie Zaleglosci",
+    title: "Nadrabianie Zaległości",
     description:
-      "Pomoc w nadrabianiu materialu z biezacego roku szkolnego. Przygotowanie do sprawdzianow i kartkowych.",
-    topics: ["Biezacy material", "Sprawdziany", "Kartkowki", "Poprawa ocen"],
+      "Pomoc w nadrabianiu materiału z bieżącego roku szkolnego. Przygotowanie do sprawdzianów i kartkówek.",
+    topics: ["Bieżący materiał", "Sprawdziany", "Kartkówki", "Poprawa ocen"],
   },
   {
     icon: Lightbulb,
     title: "Zadania Problemowe",
     description:
-      "Trening z zadan problemowych i olimpijskich. Rozwoj logicznego myslenia i kreatywnego podejscia.",
-    topics: ["Zadania konkursowe", "Olimpiady", "Logika", "Dowodzenie twierdzen"],
+      "Trening z zadań problemowych i olimpijskich. Rozwój logicznego myślenia i kreatywnego podejścia.",
+    topics: ["Zadania konkursowe", "Olimpiady", "Logika", "Dowodzenie twierdzeń"],
   },
   {
     icon: PenTool,
     title: "Arkusze Maturalne",
     description:
-      "Rozwiazywanie arkuszy maturalnych z poprzednich lat. Nauka strategii pisania egzaminu pod presja czasu.",
+      "Rozwiązywanie arkuszy maturalnych z poprzednich lat. Nauka strategii pisania egzaminu pod presja czasu.",
     topics: ["Arkusze CKE", "Strategia egzaminacyjna", "Zarządzanie czasem"],
   },
   {
     icon: BookOpen,
     title: "Konsultacje Jednorazowe",
     description:
-      "Potrzebujesz pomocy z konkretnym tematem? Jedna lekcja moze wystarczyc, zeby rozwiazac Twoj problem.",
-    topics: ["Dowolny temat", "Szybka pomoc", "Bez zobowiazan"],
+      "Potrzebujesz pomocy z konkretnym tematem? Jedna lekcja może wystarczyć, żeby rozwiązac Twój problem.",
+    topics: ["Dowolny temat", "Szybka pomoc", "Bez zobowiązań"],
   },
 ]
 

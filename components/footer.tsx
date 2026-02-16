@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
         <div className="flex items-center gap-2">
           <span className="font-display text-lg font-bold text-primary">
-            MathTutor
+            O-Korki
           </span>
           <span className="text-sm text-muted-foreground">
             &copy; {year}. Wszelkie prawa zastrzezone.

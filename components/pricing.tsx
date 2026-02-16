@@ -4,45 +4,44 @@ const plans = [
   {
     name: "Pojedyncza lekcja",
     description: "Idealna na sprawdzenie, czy do siebie pasujemy.",
-    price: "100",
+    price: "80",
     unit: "/ 60 min",
     highlight: false,
     features: [
-      "60 minut zajec indywidualnych",
+      "60 minut zajęć indywidualnych",
       "Dowolny temat",
       "Materialy po zajeciach",
-      "Online lub stacjonarnie",
+      "Online",
     ],
   },
   {
     name: "Pakiet 4 lekcji",
     description: "Najpopularniejszy wybor. Regularnosc to klucz.",
-    price: "360",
+    price: "300",
     unit: "/ 4 x 60 min",
     highlight: true,
     badge: "Najpopularniejszy",
     features: [
       "4 lekcje po 60 minut",
-      "90 zl za lekcje zamiast 100 zl",
-      "Staly termin co tydzien",
+      "75 zł za lekcje zamiast 80 zł",
+      "Stały termin co tydzień",
       "Materialy i zadania domowe",
-      "Kontakt miedzy zajeciami",
-      "Raport postepu",
+      "Kontakt miedzy zajęciami",
     ],
   },
   {
     name: "Pakiet 8 lekcji",
     description: "Intensywne przygotowanie przed matura.",
-    price: "640",
+    price: "560",
     unit: "/ 8 x 60 min",
     highlight: false,
     features: [
       "8 lekcji po 60 minut",
-      "80 zl za lekcje zamiast 100 zl",
+      "70 zł za lekcje zamiast 80 zł",
       "Elastyczny grafik",
-      "Materialy i zadania domowe",
-      "Staly kontakt WhatsApp/SMS",
-      "Probna matura z omowieniem",
+      "Materiały i zadania domowe",
+      "Stały kontakt",
+      "Próbna matura z omówieniem",
     ],
   },
 ]
@@ -71,11 +70,11 @@ export function Pricing() {
             Cennik
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Przejrzyste ceny, bez ukrytych kosztow
+            Przejrzyste ceny, bez ukrytych kosztów
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Pierwsza lekcja zapoznawcza (30 min) jest calkowicie bezplatna.
-            Sprawdz, czy moje metody Ci odpowiadaja.
+            Pierwsza lekcja zapoznawcza (30 min) jest całkowicie bezpłatna.
+            Sprawdź, czy moje metody Ci odpowiadają.
           </p>
         </div>
 

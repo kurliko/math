@@ -5,34 +5,34 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
   {
-    question: "Jak wyglada pierwsza lekcja zapoznawcza?",
+    question: "Jak wygłąda pierwsza lekcja zapoznawcza?",
     answer:
-      "Pierwsza lekcja trwa 30 minut i jest calkowicie bezplatna. Podczas niej poznajemy sie, omawiam Twoj aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
+      "Pierwsza lekcja trwa 30 minut i jest całkowicie bezpłatna. Podczas niej poznajemy sie, omawiam Twoj aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
   },
   {
     question: "Czy zajecia odbywaja sie online czy stacjonarnie?",
     answer:
-      "Oferuje oba formaty! Zajecia online odbywaja sie przez Zoom lub Google Meet z wykorzystaniem tablicy interaktywnej. Zajecia stacjonarne prowadze na terenie Warszawy.",
+      "Zajecia odbywają się online przez Discord, Google Meet lub Zoom, z wykorzystaniem tablicy interaktywnej Miro.",
   },
   {
-    question: "Jak czesto powinny odbywac sie zajecia?",
+    question: "Jak czesto powinny odbywać się zajęcia?",
     answer:
-      "Dla najlepszych efektow rekomenduje minimum 1 lekcje tygodniowo. Przed matura warto zwiekszyc czestotliwosc do 2-3 razy w tygodniu. Wszystko zalezy od Twojego poziomu i celow.",
+      "Dla najlepszych efektów rekomenduję minimum 1 lekcje tygodniowo. Przed matura warto zwiekszyć częstotliwość do 2-3 razy w tygodniu. Wszystko zależy od Twojego poziomu i celów.",
   },
   {
-    question: "Co jesli musz odwolac lekcje?",
+    question: "Co jeśli muszę odwołać lekcję?",
     answer:
-      "Lekcje mozna odwolac bezplatnie z minimum 24-godzinnym wyprzedzeniem. W przypadku pozniejszego odwolania lekcja jest rozliczana normalnie, chyba ze wypadek losowy.",
+      "Lekcje można odwołać bezpłatnie z minimum 24-godzinnym wyprzedzeniem. W przypadku późniejszego odwołania lekcja jest rozliczana normalnie, chyba że to wypadek losowy.",
   },
   {
-    question: "Czy pomagasz rowniez z biezacym materialem szkolnym?",
+    question: "Czy pomagasz również z bieżącym materiałem szkolnym?",
     answer:
-      "Oczywiscie! Pomagam zarowno w przygotowaniu do matury, jak i z biezacymi tematami szkolnymi, sprawdzianami, kartkowkami i zadaniami domowymi.",
+      "Oczywiście! Pomagam zarówno w przygotowaniu do matury, jak i z bieżącymi tematami szkolnymi, sprawdzianami, kartkówkami i zadaniami domowymi.",
   },
   {
-    question: "Jak moge zaplacic za zajecia?",
+    question: "Jak mogę zapłacic za zajęcia?",
     answer:
-      "Akceptuje przelew bankowy, BLIK oraz gotowke (przy zajeciach stacjonarnych). Platnosc za pakiet odbywa sie z gory, za pojedyncze lekcje - po zajeciach.",
+      "Akceptuję przelew bankowy oraz BLIK. Platność za pakiet odbywa sie z góry, za pojedyncze lekcję - przed zajęciami.",
   },
 ]
 

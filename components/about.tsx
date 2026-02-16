@@ -3,23 +3,23 @@ import { Award, Clock, Target, Users } from "lucide-react"
 const highlights = [
   {
     icon: Award,
-    title: "Wyksztalcenie",
-    description: "Absolwent matematyki na [Twoja uczelnia]. Pasjonat nauk scislych z wieloletnim doswiadczeniem.",
+    title: "Wykształcenie",
+    description: "Jestem studentem 3 roku informatyki stosowanej na AGH. Uzyskałem wynik 100% na maturze rozszrzeonej z matematyki",
   },
   {
     icon: Users,
-    title: "Indywidualne podejscie",
-    description: "Kazdy uczen jest inny - dostosowuje tempo i metody nauczania do Twoich potrzeb.",
+    title: "Indywidualne podejście",
+    description: "Kazdy ucze jest inny - dostosowuje tempo i metody nauczania do Twoich potrzeb.",
   },
   {
     icon: Target,
     title: "Nastawienie na wynik",
-    description: "Moim celem jest Twoj sukces na maturze. Pracujemy razem nad konkretnymi wynikami.",
+    description: "Moim celem jest Twój sukces na maturze. Pracujemy razem nad konkretnymi wynikami.",
   },
   {
     icon: Clock,
     title: "Elastyczne terminy",
-    description: "Zajecia online i stacjonarne. Dostepnosc rowniez w weekendy i w godzinach wieczornych.",
+    description: "Zajecia online dają możliwośc ustalenia niezwykle elastycznego grafiku. Dostepność w szerokim przedziale godzin.",
   },
 ]
 
@@ -33,11 +33,11 @@ export function About() {
             O mnie
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Czesc, jestem [Twoje Imie]
+            Cześć, jestem Filip
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Od ponad 5 lat pomagam uczniom szkol srednich w przygotowaniu do
-            matury z matematyki. Wierze, ze matematyka moze byc zrozumiala
+            Od ponad 3 lat pomagam uczniom szkól średnich w przygotowaniu do
+            matury z matematyki. Wierzę, że matematyka może być zrozumiała
             i nawet przyjemna - wystarczy odpowiednie podejscie i dobry
             nauczyciel. Moi uczniowie regularnie osiagaja wyniki ponad swoje
             oczekiwania.

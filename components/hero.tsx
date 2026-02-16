@@ -18,12 +18,12 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
-            Matematyka na <span className="text-primary">wyciagniecie reki</span>
+            Matematyka na <span className="text-primary">wyciągnięcie ręki</span>
           </h1>
 
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
             Profesjonalne korepetycje z matematyki na poziomie matury podstawowej
-            i rozszerzonej. Indywidualne podejscie, sprawdzone metody
+            i rozszerzonej. Indywidualne podejście, sprawdzone metody
             i gwarantowane rezultaty.
           </p>
 
@@ -33,7 +33,7 @@ export function Hero() {
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
             >
               <BookOpen className="h-4 w-4" />
-              Umow darmowa lekcje
+              Umów darmowa lekcje
             </a>
             <a
               href="#cennik"
@@ -85,8 +85,8 @@ export function Hero() {
                   <BookOpen className="h-5 w-5 text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">5+ lat</p>
-                  <p className="text-xs text-muted-foreground">doswiadczenia</p>
+                  <p className="text-sm font-semibold text-foreground">4+ lat</p>
+                  <p className="text-xs text-muted-foreground">doświadczenia</p>
                 </div>
               </div>
             </div>

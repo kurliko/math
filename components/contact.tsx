@@ -7,19 +7,19 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefon",
-    value: "+48 XXX XXX XXX",
-    href: "tel:+48XXXXXXXXX",
+    value: "+48 798 561 322",
+    href: "tel:+48798561322",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "twoj@email.pl",
-    href: "mailto:twoj@email.pl",
+    value: "kontakt@o-korki.pl",
+    href: "mailto:kontakt@o-korki.pl",
   },
   {
     icon: MapPin,
     label: "Lokalizacja",
-    value: "Warszawa / Online",
+    value: "Online",
     href: null,
   },
   {
@@ -33,11 +33,26 @@ const contactInfo = [
 export function Contact() {
   const [submitted, setSubmitted] = useState(false)
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    // For now, just show success state.
-    // When you add PHP backend, change the form action to your PHP endpoint.
-    setSubmitted(true)
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    // Wysyłamy dane do Formspree
+    const response = await fetch("https://formspree.io/f/xlgwnbza", {
+      method: "POST",
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+
+    if (response.ok) {
+      setSubmitted(true)
+      form.reset() // Czyści formularz po wysłaniu
+    } else {
+      alert("Wystąpił błąd. Spróbuj wysłać wiadomość bezpośrednio na e-mail.")
+    }
   }
 
   return (
@@ -48,11 +63,11 @@ export function Contact() {
             Kontakt
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Umow sie na darmowa lekcje
+            Umów się na darmowa lekcję
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Pierwsza lekcja zapoznawcza (30 min) jest za darmo.
-            Wypelnij formularz lub napisz do mnie bezposrednio.
+            Wypełnij formularz lub napisz do mnie bezpośrednio.
           </p>
         </div>
 
@@ -83,10 +98,10 @@ export function Contact() {
             {/* Social links placeholder */}
             <div className="mt-4 rounded-xl border border-border bg-card p-6">
               <p className="mb-3 text-sm font-semibold text-foreground">
-                Znajdziesz mnie rowniez na:
+                Znajdziesz mnie również na:
               </p>
               <div className="flex gap-3">
-                {["Facebook", "Instagram", "TikTok"].map((social) => (
+                {["Facebook"].map((social) => (
                   <a
                     key={social}
                     href="#"

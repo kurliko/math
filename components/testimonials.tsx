@@ -5,28 +5,28 @@ const testimonials = [
     name: "Kasia M.",
     role: "Matura rozszerzona 2025",
     rating: 5,
-    text: "Dzieki korepetycjom zdalam mature rozszerzona na 86%! Przed zajeciami matematyka byla moim najslabszym przedmiotem. Polecam kazdemu!",
+    text: "Dzięki korepetycjom zdałam mature rozszerzoną na 86%! Przed zajeciami matematyka nie była ani moim ulubionym przedmiotem, ani też moją mocną stroną. Polecam każdemu!",
     result: "86%",
   },
   {
     name: "Tomek W.",
     role: "Matura podstawowa 2025",
     rating: 5,
-    text: "Super podejscie do ucznia. Tlumaczy cierpliwie i na rozne sposoby, az sie zrozumie. Atmosfera na zajeciach jest bardzo luźna i przyjazna.",
+    text: "Super podejście do ucznia. Tłumaczy cierpliwie i na rozne sposoby, aż się zrozumie. Atmosfera na zajeciach jest bardzo luźna i przyjazna.",
     result: "92%",
   },
   {
     name: "Anna K.",
     role: "Mama uczennicy",
     rating: 5,
-    text: "Corka zaczela rozumiec matematyke i nawet ja polubila. Oceny w szkole poszly w gore z 2 na 4. Bardzo polecam jako rodzic!",
+    text: "Córka zaczeła rozumieć matematyke i nawet ją polubiła. Oceny w szkole poszły w górę z 2 na 4. Bardzo polecam jako rodzic!",
     result: "+2 oceny",
   },
   {
     name: "Piotr D.",
     role: "Matura rozszerzona 2024",
     rating: 5,
-    text: "Najlepsze korepetycje jakie mialem. Materialy po zajeciach mega pomagaly w powtorkach. Dostalem sie na wymarzone studia!",
+    text: "Najlepsze korepetycje jakie miałem. Materiały po zajęciach mega pomagaly w powtórkach. Dostałem się na wymarzone studia!",
     result: "78%",
   },
 ]
@@ -40,11 +40,11 @@ export function Testimonials() {
             Opinie
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Co mowia moi uczniowie?
+            Co mowią moi uczniowie?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Wyniki moich uczniow mowia same za siebie. Oto kilka opinii
-            od osob, z ktorymi mialem przyjemnosc pracowac.
+            Wyniki moich uczniow mówią same za siebie. Oto kilka opinii
+            od osob, z ktorymi miałem przyjemność pracowac.
           </p>
         </div>
 
