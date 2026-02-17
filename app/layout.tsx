@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter' 
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'Korepetycje z Matematyki - Matura Podstawowa i Rozszerzona',
-  description: 'Profesjonalne korepetycje z matematyki. Przygotowanie do matury podstawowej i rozszerzonej. Indywidualne podejscie, sprawdzone metody, gwarantowane wyniki.',
+  title: 'Filip Opacki - Korepetycje z Matematyki | o-korki.pl',
+  description: 'Profesjonalne korepetycje z matematyki. Doświadczony korepetytor - Filip Opacki. Przygotowanie do matury podstawowej i rozszerzonej. Indywidualne podejscie, sprawdzone metody, gwarantowane wyniki.',
 }
 
 export default function RootLayout({
