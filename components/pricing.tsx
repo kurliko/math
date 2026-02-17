@@ -49,7 +49,7 @@ const plans = [
 const extras = [
   {
     name: "Matura Rozszerzona",
-    note: "+20 zł do ceny lekcji",
+    note: "+10 zł do ceny lekcji",
   },
   {
     name: "Lekcja 90 min",
