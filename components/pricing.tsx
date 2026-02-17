@@ -1,50 +1,6 @@
+"use client"
 import { Check, Sparkles } from "lucide-react"
-
-const plans = [
-  {
-    name: "Pojedyncza lekcja",
-    description: "Idealna na sprawdzenie, czy do siebie pasujemy.",
-    price: "80",
-    unit: "/ 60 min",
-    highlight: false,
-    features: [
-      "60 minut zajęć indywidualnych",
-      "Dowolny temat",
-      "Materiały po zajęciach",
-      "Online",
-    ],
-  },
-  {
-    name: "Pakiet 4 lekcji",
-    description: "Najpopularniejszy wybor. Regularność to klucz.",
-    price: "300",
-    unit: "/ 4 x 60 min",
-    highlight: true,
-    badge: "Najpopularniejszy",
-    features: [
-      "4 lekcje po 60 minut",
-      "75 zł za lekcje zamiast 80 zł",
-      "Stały termin co tydzień",
-      "Materialy i zadania domowe",
-      "Kontakt miedzy zajęciami",
-    ],
-  },
-  {
-    name: "Pakiet 8 lekcji",
-    description: "Intensywne przygotowanie przed maturą.",
-    price: "560",
-    unit: "/ 8 x 60 min",
-    highlight: false,
-    features: [
-      "8 lekcji po 60 minut",
-      "70 zł za lekcje zamiast 80 zł",
-      "Elastyczny grafik",
-      "Materiały i zadania domowe",
-      "Stały kontakt",
-      "Próbna matura z omówieniem",
-    ],
-  },
-]
+import { useState } from "react"
 
 const extras = [
   {
@@ -62,6 +18,57 @@ const extras = [
 ]
 
 export function Pricing() {
+  const [isAdvanced, setIsAdvanced] = useState(false)
+  // Wewnątrz funkcji Pricing
+  const plans = [
+    {
+      name: "Pojedyncza lekcja",
+      description: "Idealna na sprawdzenie, czy do siebie pasujemy.",
+      hours: 1, // liczba, nie tekst
+      price: 80, // liczba, nie tekst
+      unit: "/ 60 min",
+      highlight: false,
+      features: [
+        "60 minut zajęć indywidualnych",
+        "Dowolny temat",
+        "Materiały po zajęciach",
+        "Online",]
+    },
+    {
+      name: "Pakiet 4 lekcji",
+      description: "Najpopularniejszy wybór. Regularność to klucz.",
+      hours: 4,
+      price: 300,
+      unit: "/ 4 x 60 min",
+      highlight: true,
+      badge: "Najpopularniejszy",
+      features: [
+        "4 lekcje po 60 minut",
+        // Logika: (300/4 = 75) dla podstawy, (340/4 = 85) dla rozszerzenia
+        `${isAdvanced ? 85 : 75} zł za lekcje zamiast ${isAdvanced ? 90 : 80} zł`,
+        "Stały termin co tydzień",
+        "Materiały i zadania domowe",
+        "Kontakt między zajęciami",
+      ],
+    },
+    {
+      name: "Pakiet 8 lekcji",
+      description: "Intensywne przygotowanie przed maturą.",
+      hours: 8,
+      price: 560,
+      unit: "/ 8 x 60 min",
+      highlight: false,
+      features: [
+        "8 lekcji po 60 minut",
+        // Logika: (560/8 = 70) dla podstawy, (640/8 = 80) dla rozszerzenia
+        `${isAdvanced ? 80 : 70} zł za lekcje zamiast ${isAdvanced ? 90 : 80} zł`,
+        "Elastyczny grafik",
+        "Materiały i zadania domowe",
+        "Stały kontakt",
+        "Próbna matura z omówieniem",
+      ],
+    },
+  ]
   return (
     <section id="cennik" className="py-24">
       <div className="mx-auto max-w-6xl px-6">
@@ -77,7 +84,26 @@ export function Pricing() {
             Sprawdź, czy moje metody Ci odpowiadają.
           </p>
         </div>
-
+        <div className="mb-12 flex justify-center">
+          <div className="flex items-center gap-4 rounded-full bg-muted p-1 border border-border">
+            <button
+              onClick={() => setIsAdvanced(false)}
+              className={`rounded-full px-6 py-2 text-sm font-semibold transition-all ${
+                !isAdvanced ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Podstawa
+            </button>
+            <button
+              onClick={() => setIsAdvanced(true)}
+              className={`rounded-full px-6 py-2 text-sm font-semibold transition-all ${
+                isAdvanced ? "bg-primary text-primary-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Rozszerzenie (+10 zł/h)
+            </button>
+          </div>
+        </div>
         {/* Pricing cards */}
         <div className="grid items-start gap-6 lg:grid-cols-3">
           {plans.map((plan) => (
@@ -103,17 +129,17 @@ export function Pricing() {
 
               <div className="mt-6 flex items-baseline gap-1">
                 <span className="font-display text-4xl font-bold text-foreground">
-                  {plan.price}
+                  {isAdvanced ? plan.price + (plan.hours * 10) : plan.price}
                 </span>
-                <span className="text-lg text-muted-foreground">zl</span>
+                <span className="text-lg text-muted-foreground">zł</span>
                 <span className="ml-1 text-sm text-muted-foreground">{plan.unit}</span>
               </div>
 
               <ul className="mt-8 flex flex-col gap-3">
-                {plan.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-3">
+                {plan.features.map((features) => (
+                  <li key={features} className="flex items-start gap-3">
                     <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                    <span className="text-sm text-foreground">{feature}</span>
+                    <span className="text-sm text-foreground">{features}</span>
                   </li>
                 ))}
               </ul>
