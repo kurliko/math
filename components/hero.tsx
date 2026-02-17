@@ -47,12 +47,12 @@ export function Hero() {
           <div className="mt-4 flex items-center gap-8">
             <div className="flex flex-col">
               <span className="font-display text-2xl font-bold text-foreground">150+</span>
-              <span className="text-sm text-muted-foreground">Uczniow</span>
+              <span className="text-sm text-muted-foreground">Uczniów</span>
             </div>
             <div className="h-10 w-px bg-border" />
             <div className="flex flex-col">
               <span className="font-display text-2xl font-bold text-foreground">95%</span>
-              <span className="text-sm text-muted-foreground">Zdawalnosc</span>
+              <span className="text-sm text-muted-foreground">Zdawalność</span>
             </div>
             <div className="h-10 w-px bg-border" />
             <div className="flex flex-col">
@@ -70,13 +70,11 @@ export function Hero() {
           <div className="relative">
             <div className="relative h-80 w-80 overflow-hidden rounded-2xl bg-muted shadow-lg lg:h-96 lg:w-96">
               {/* PLACEHOLDER: Replace with your profile photo */}
-              <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-secondary text-muted-foreground">
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
-                  <GraduationCap className="h-10 w-10 text-primary" />
-                </div>
-                <span className="text-sm font-medium">Twoje zdjecie</span>
-                <span className="text-xs">Zamien na src w komponencie Hero</span>
-              </div>
+              <img 
+                src="/prof.jpeg" 
+                alt="Zdjęcie profilowe - korepetytor matematyki" 
+                className="h-full w-full object-cover" 
+              />
             </div>
             {/* Decorative badge */}
             <div className="absolute -bottom-4 -left-4 rounded-xl bg-card p-4 shadow-lg border border-border">
