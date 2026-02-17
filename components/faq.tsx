@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "Jak wygłąda pierwsza lekcja zapoznawcza?",
     answer:
-      "Pierwsza lekcja trwa 30 minut i jest całkowicie bezpłatna. Podczas niej poznajemy sie, omawiam Twoj aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
+      "Pierwsza lekcja trwa 30 minut i jest całkowicie bezpłatna. Podczas niej poznajemy sie, omawiam Twój aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
   },
   {
     question: "Czy zajecia odbywaja sie online czy stacjonarnie?",
@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "Jak czesto powinny odbywać się zajęcia?",
     answer:
-      "Dla najlepszych efektów rekomenduję minimum 1 lekcje tygodniowo. Przed matura warto zwiekszyć częstotliwość do 2-3 razy w tygodniu. Wszystko zależy od Twojego poziomu i celów.",
+      "Dla najlepszych efektów rekomenduję minimum 1 lekcje tygodniowo. Przed matura warto zwiększyć częstotliwość do 2-3 razy w tygodniu. Wszystko zależy od Twojego poziomu i celów.",
   },
   {
     question: "Co jeśli muszę odwołać lekcję?",

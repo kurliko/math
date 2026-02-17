@@ -9,7 +9,7 @@ export function Footer() {
             O-Korki
           </span>
           <span className="text-sm text-muted-foreground">
-            &copy; {year}. Wszelkie prawa zastrzezone.
+            &copy; Filip Opacki {year}. Wszelkie prawa zastrzeżone.
           </span>
         </div>
 

@@ -31,7 +31,7 @@ const plans = [
   },
   {
     name: "Pakiet 8 lekcji",
-    description: "Intensywne przygotowanie przed matura.",
+    description: "Intensywne przygotowanie przed maturą.",
     price: "560",
     unit: "/ 8 x 60 min",
     highlight: false,
@@ -56,8 +56,8 @@ const extras = [
     note: "+50% ceny standardowej",
   },
   {
-    name: "Zajecia w weekend",
-    note: "Bez dodatkowych oplat",
+    name: "Zajęcia w weekend",
+    note: "Bez dodatkowych opłat",
   },
 ]
 

@@ -91,7 +91,7 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className="block rounded-lg bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"
               >
-                Umow lekcje
+                Umów lekcję
               </a>
             </li>
           </ul>

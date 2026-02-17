@@ -13,7 +13,7 @@ const services = [
     title: "Matura Rozszerzona",
     description:
       "Zaawansowane przygotowanie do matury rozszerzonej. Dowody, zadania optymalizacyjne, rachunek różniczkowy.",
-    topics: ["Rachunek rozniczkowy", "Kombinatoryka", "Dowody", "Optymalizacja", "Liczby zespolone"],
+    topics: ["Rachunek rożniczkowy", "Kombinatoryka", "Dowody", "Optymalizacja", "Liczby zespolone"],
   },
   {
     icon: ChartLine,
@@ -33,14 +33,14 @@ const services = [
     icon: PenTool,
     title: "Arkusze Maturalne",
     description:
-      "Rozwiązywanie arkuszy maturalnych z poprzednich lat. Nauka strategii pisania egzaminu pod presja czasu.",
+      "Rozwiązywanie arkuszy maturalnych z poprzednich lat. Nauka strategii pisania egzaminu pod presją czasu.",
     topics: ["Arkusze CKE", "Strategia egzaminacyjna", "Zarządzanie czasem"],
   },
   {
     icon: BookOpen,
     title: "Konsultacje Jednorazowe",
     description:
-      "Potrzebujesz pomocy z konkretnym tematem? Jedna lekcja może wystarczyć, żeby rozwiązac Twój problem.",
+      "Potrzebujesz pomocy z konkretnym tematem? Jedna lekcja może wystarczyć, żeby rozwiązać Twój problem.",
     topics: ["Dowolny temat", "Szybka pomoc", "Bez zobowiązań"],
   },
 ]
@@ -54,11 +54,11 @@ export function Services() {
             Oferta
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Czego moge Cie nauczyc?
+            Czego mogę Cie nauczyć?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Oferuje szeroki zakres wsparcia - od podstaw po zaawansowana
-            matematyke. Wybierz to, czego potrzebujesz.
+            Oferuję szeroki zakres wsparcia - od podstaw po zaawansowana
+            matematykę. Wybierz to, czego potrzebujesz.
           </p>
         </div>
 
