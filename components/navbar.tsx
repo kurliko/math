@@ -30,8 +30,12 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="font-display text-xl font-bold text-primary">
-          O-Korki
+        <a href="#" className="flex items-center">
+          <img 
+            src="/logo.png" 
+            alt="Logo O-Korki" 
+            className="w-20 md:w-20 h-auto object-contain" 
+          />
         </a>
 
         {/* Desktop */}
@@ -51,7 +55,7 @@ export function Navbar() {
               href="#kontakt"
               className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
             >
-              Umow lekcje
+              Umów lekcję
             </a>
           </li>
         </ul>
