@@ -125,7 +125,7 @@ export function Contact() {
                   Wiadomość wysłana!
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Odpowiem najszybciej jak to mozliwe, zwykle w ciagu kilku godzin.
+                  Odpowiem najszybciej jak to możliwe, zwykle w ciągu kilku godzin.
                 </p>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -196,7 +196,7 @@ export function Contact() {
                     <option value="">Wybierz poziom...</option>
                     <option value="podstawowa">Matura podstawowa</option>
                     <option value="rozszerzona">Matura rozszerzona</option>
-                    <option value="klasa-1-2">Klasa 1-2 LO</option>
+                    <option value="klasa-1-2">Klasa 1-3 szkoły średniej</option>
                     <option value="inne">Inne</option>
                   </select>
                 </div>
