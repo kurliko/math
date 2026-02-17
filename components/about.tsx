@@ -4,12 +4,12 @@ const highlights = [
   {
     icon: Award,
     title: "Wykształcenie",
-    description: "Jestem studentem 3 roku informatyki stosowanej na AGH. Uzyskałem wynik 100% na maturze rozszrzeonej z matematyki.",
+    description: "Jestem studentem 3 roku informatyki stosowanej na AGH. Uzyskałem wynik 100% na maturze rozszerzonej z matematyki.",
   },
   {
     icon: Users,
     title: "Indywidualne podejście",
-    description: "Kazdy uczeń jest inny - dostosowuję tempo i metody nauczania do Twoich potrzeb.",
+    description: "Każdy uczeń jest inny - dostosowuję tempo i metody nauczania do Twoich potrzeb.",
   },
   {
     icon: Target,
@@ -36,7 +36,7 @@ export function About() {
             Cześć, jestem Filip
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Od ponad 4 lat pomagam uczniom szkól średnich w przygotowaniu do
+            Od ponad 4 lat pomagam uczniom szkół średnich w przygotowaniu do
             matury z matematyki. Wierzę, że matematyka może być zrozumiała
             i nawet przyjemna - wystarczy odpowiednie podejście i dobry
             nauczyciel. Moi uczniowie regularnie osiagaja wyniki ponad swoje

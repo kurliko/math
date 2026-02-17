@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "Jak wygłąda pierwsza lekcja zapoznawcza?",
     answer:
-      "Pierwsza lekcja trwa 30 minut i jest całkowicie bezpłatna. Podczas niej poznajemy sie, omawiam Twój aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
+      "Pierwsza lekcja trwa 30 minut i jest całkowicie bezpłatna. Podczas niej poznajemy się, omawiam Twój aktualny poziom i cele, a nastepnie proponuje plan nauki dopasowany do Twoich potrzeb.",
   },
   {
     question: "Czy zajecia odbywaja sie online czy stacjonarnie?",
@@ -15,7 +15,7 @@ const faqs = [
       "Zajecia odbywają się online przez Discord, Google Meet lub Zoom, z wykorzystaniem tablicy interaktywnej Miro.",
   },
   {
-    question: "Jak czesto powinny odbywać się zajęcia?",
+    question: "Jak często powinny odbywać się zajęcia?",
     answer:
       "Dla najlepszych efektów rekomenduję minimum 1 lekcje tygodniowo. Przed matura warto zwiększyć częstotliwość do 2-3 razy w tygodniu. Wszystko zależy od Twojego poziomu i celów.",
   },
@@ -47,7 +47,7 @@ export function FAQ() {
             FAQ
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground sm:text-4xl text-balance">
-            Czesto zadawane pytania
+            Często zadawane pytania
           </h2>
         </div>
 

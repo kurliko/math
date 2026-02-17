@@ -122,7 +122,7 @@ export function Contact() {
                   <Send className="h-7 w-7 text-primary" />
                 </div>
                 <h3 className="font-display text-xl font-bold text-foreground">
-                  Wiadomosc wyslana!
+                  Wiadomość wysłana!
                 </h3>
                 <p className="text-sm text-muted-foreground">
                   Odpowiem najszybciej jak to mozliwe, zwykle w ciagu kilku godzin.
@@ -131,7 +131,7 @@ export function Contact() {
                   onClick={() => setSubmitted(false)}
                   className="mt-2 text-sm font-medium text-primary hover:underline"
                 >
-                  Wyslij kolejna wiadomosc
+                  Wyślij kolejną wiadomość
                 </button>
               </div>
             ) : (
@@ -144,7 +144,7 @@ export function Contact() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="name" className="text-sm font-medium text-foreground">
-                      Imie i nazwisko
+                      Imię i nazwisko
                     </label>
                     <input
                       id="name"
@@ -203,7 +203,7 @@ export function Contact() {
 
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="message" className="text-sm font-medium text-foreground">
-                    Wiadomosc
+                    Wiadomość
                   </label>
                   <textarea
                     id="message"
@@ -220,12 +220,12 @@ export function Contact() {
                   className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
                 >
                   <Send className="h-4 w-4" />
-                  Wyslij wiadomosc
+                  Wyślij wiadomość
                 </button>
 
                 <p className="text-xs text-muted-foreground">
-                  Odpowiadam zwykle w ciagu kilku godzin. Twoje dane sa bezpieczne
-                  i nie beda udostepniane osobom trzecim.
+                  Odpowiadam zwykle w ciągu kilku godzin. Twoje dane są bezpieczne
+                  i nie będą udostępniane osobom trzecim.
                 </p>
               </form>
             )}

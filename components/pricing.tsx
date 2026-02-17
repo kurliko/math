@@ -10,13 +10,13 @@ const plans = [
     features: [
       "60 minut zajęć indywidualnych",
       "Dowolny temat",
-      "Materialy po zajeciach",
+      "Materiały po zajęciach",
       "Online",
     ],
   },
   {
     name: "Pakiet 4 lekcji",
-    description: "Najpopularniejszy wybor. Regularnosc to klucz.",
+    description: "Najpopularniejszy wybor. Regularność to klucz.",
     price: "300",
     unit: "/ 4 x 60 min",
     highlight: true,
@@ -49,7 +49,7 @@ const plans = [
 const extras = [
   {
     name: "Matura Rozszerzona",
-    note: "+20 zl do ceny lekcji",
+    note: "+20 zł do ceny lekcji",
   },
   {
     name: "Lekcja 90 min",
