@@ -46,8 +46,8 @@ export function Hero() {
           {/* Stats */}
           <div className="mt-4 flex items-center gap-8">
             <div className="flex flex-col">
-              <span className="font-display text-2xl font-bold text-foreground">150+</span>
-              <span className="text-sm text-muted-foreground">Uczniów</span>
+              <span className="font-display text-2xl font-bold text-foreground">400+</span>
+              <span className="text-sm text-muted-foreground">Lekcji</span>
             </div>
             <div className="h-10 w-px bg-border" />
             <div className="flex flex-col">
@@ -83,7 +83,7 @@ export function Hero() {
                   <BookOpen className="h-5 w-5 text-accent" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-foreground">4+ lat</p>
+                  <p className="text-sm font-semibold text-foreground">3+ lat</p>
                   <p className="text-xs text-muted-foreground">doświadczenia</p>
                 </div>
               </div>

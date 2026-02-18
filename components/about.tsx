@@ -36,8 +36,9 @@ export function About() {
             Cześć, jestem Filip
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Od ponad 4 lat pomagam uczniom szkół średnich w przygotowaniu do
-            matury z matematyki. Wierzę, że matematyka może być zrozumiała
+            Od ponad 3 lat pomagam uczniom szkół średnich w nauce matematyki. Przygotowuję zarówno do egzaminu maturalnego,
+            jak i pomagam z bieżącym materiałem.
+            Wierzę, że matematyka może być zrozumiała
             i nawet przyjemna - wystarczy odpowiednie podejście i dobry
             nauczyciel. Moi uczniowie regularnie osiagaja wyniki ponad swoje
             oczekiwania.
