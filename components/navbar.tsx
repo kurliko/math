@@ -4,11 +4,11 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 
 const navLinks = [
-  { href: "#o-mnie", label: "O mnie" },
-  { href: "#oferta", label: "Oferta" },
-  { href: "#cennik", label: "Cennik" },
-  { href: "#opinie", label: "Opinie" },
-  { href: "#kontakt", label: "Kontakt" },
+  { href: "/#o-mnie", label: "O mnie" },
+  { href: "/#oferta", label: "Oferta" },
+  { href: "/#cennik", label: "Cennik" },
+  { href: "/#opinie", label: "Opinie" },
+  { href: "/#kontakt", label: "Kontakt" },
 ]
 
 export function Navbar() {
@@ -30,7 +30,7 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="flex items-center">
+        <a href="/#" className="flex items-center">
           <img 
             src="/logo.png" 
             alt="Logo O-Korki" 
