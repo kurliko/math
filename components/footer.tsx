@@ -32,6 +32,9 @@ export function Footer() {
           >
             Kontakt
           </a>
+          <a href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary">
+          Polityka prywatności
+          </a>
         </nav>
       </div>
     </footer>
